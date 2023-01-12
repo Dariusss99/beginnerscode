@@ -23,7 +23,8 @@ print("Please tell me the destination of your journey \n"
       "if you want to go home, press 4 \n")
 
 while True:
-    decision = int(input())
+    decision = float(input())
+    int(decision)
     if decision == 1:
         print(" We used to think that the brain was fully developed by very early teenagerhood \n"
           " and we now realise that the brain doesn't stop developing until mid-20s or even \n"
@@ -37,7 +38,7 @@ while True:
     elif decision == 4:
         break
     else:
-        print("please provide a number between 1 and 4 \n")
+        print("Please choose option: 1, 2, 3, or 4 \n")
     print("Anything else? ")
 
 print("Thank you for coming, hope to see you soon :)")
