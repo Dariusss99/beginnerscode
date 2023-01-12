@@ -19,25 +19,25 @@ while True:
 print("Please tell me the destination of your journey \n"
       "if it is to hear a fun fact, press 1 \n"
       "if it is to learn, press 2 \n"
-      "if it is to hear a joke press 3")
-decision = int(input())
+      "if it is to hear a joke, press 3 \n"
+      "if you want to go home, press 4 \n")
+
 while True:
+    decision = int(input())
     if decision == 1:
-        print("We used to think that the brain was fully developed by very early teenagerhood \n"
+        print(" We used to think that the brain was fully developed by very early teenagerhood \n"
           " and we now realise that the brain doesn't stop developing until mid-20s or even \n"
           " early 30s. There's a lot more information and evidence to suggest that actually \n"
           " brain development in various forms goes on throughout the life span. \n")
-        break
     elif decision == 2:
         print("Read this book to learn programming: https://automatetheboringstuff.com/  \n")
-        break
     elif decision == 3:
         print("!false \n"
         "It's funny 'cause it's true. \n")
+    elif decision == 4:
         break
     else:
-        print("please provide a number between 1 and 3")
+        print("please provide a number between 1 and 4 \n")
+    print("Anything else? ")
 
 print("Thank you for coming, hope to see you soon :)")
-
-
