@@ -38,7 +38,7 @@ while True:
                 print("You have 21")
                 break
             else:
-                print("Hit or Stand? ")
+                print("Hit or Stand? h\s?")
                 player_choise = input()
                 if player_choise == "Hit" or player_choise == "hit" or player_choise == "h":
                     player_hand += random.randint(1, 14)
